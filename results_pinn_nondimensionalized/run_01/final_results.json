@@ -1,0 +1,21 @@
+{
+  "run_id": 1,
+  "seed": 1235,
+  "estimate_M": 1.3479808568954468,
+  "estimate_R": 1.2492988109588623,
+  "estimate_d": 1.2492051124572754,
+  "estimate_T": 4.999045372009277,
+  "truth_M": 1.35,
+  "truth_R": 1.25,
+  "truth_d": 1.25,
+  "truth_T": 5.0,
+  "loss_total": 3.913073101102782e-07,
+  "loss_pde": 2.913251648806181e-07,
+  "loss_ic": 7.752426256502076e-08,
+  "loss_obs": 2.2457859572000416e-08,
+  "relative_intensity_L2": 0.0017093707574531436,
+  "wall_clock_seconds": 279.7948479652405,
+  "initial_guess": "{\"M\": 1.722944876568783, \"R\": 1.0677789786976537, \"d\": 1.682862806492262, \"T\": 3.674813498589349}",
+  "baseline_diagnostic_global_raw_residual_rms": 0.0016364719100362551,
+  "baseline_diagnostic_global_raw_residual_max_abs": 0.050506412982940674
+}

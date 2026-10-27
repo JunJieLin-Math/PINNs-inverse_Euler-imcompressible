@@ -1,0 +1,119 @@
+{
+  "diagnostic": "independent_dense_grid_PDE_residual",
+  "grid": {
+    "nx": 64,
+    "ny": 64,
+    "nt": 11,
+    "points_total": 45056
+  },
+  "estimated_parameters": {
+    "M": 1.34872305393219,
+    "R": 1.249239444732666,
+    "d": 1.2503941059112549,
+    "T": 4.999054908752441
+  },
+  "pde_scale": 0.7798758149147034,
+  "raw_residual_global": {
+    "rms": 0.0016875824971975335,
+    "mean_absolute": 0.00036592379910871387,
+    "median_absolute": 6.989375833654776e-06,
+    "p95_absolute": 0.0015338024822995067,
+    "p99_absolute": 0.005962114781141281,
+    "maximum_absolute": 0.059040188789367676
+  },
+  "normalized_residual_global": {
+    "rms": 0.0021639118240666406,
+    "mean_absolute": 0.00046920777912408493,
+    "maximum_absolute": 0.07570460278451516
+  },
+  "per_time_slice": [
+    {
+      "tau": 0.0,
+      "physical_time_using_estimated_T": 0.0,
+      "residual_rms": 0.0026428052224218845,
+      "residual_mean_abs": 0.0007597454823553562,
+      "residual_max_abs": 0.03726053237915039,
+      "normalized_residual_rms": 0.0033887513523046405
+    },
+    {
+      "tau": 0.10000000149011612,
+      "physical_time_using_estimated_T": 0.49990549832441644,
+      "residual_rms": 0.0006877402192912996,
+      "residual_mean_abs": 0.00023741423501633108,
+      "residual_max_abs": 0.00852954387664795,
+      "normalized_residual_rms": 0.0008818586320265864
+    },
+    {
+      "tau": 0.20000000298023224,
+      "physical_time_using_estimated_T": 0.9998109966488329,
+      "residual_rms": 0.00045260885963216424,
+      "residual_mean_abs": 0.00017823363305069506,
+      "residual_max_abs": 0.004355967044830322,
+      "normalized_residual_rms": 0.0005803601688579957
+    },
+    {
+      "tau": 0.30000001192092896,
+      "physical_time_using_estimated_T": 1.4997165322191108,
+      "residual_rms": 0.000390349276131019,
+      "residual_mean_abs": 0.00015179591719061136,
+      "residual_max_abs": 0.0035058259963989258,
+      "normalized_residual_rms": 0.0005005274797163857
+    },
+    {
+      "tau": 0.4000000059604645,
+      "physical_time_using_estimated_T": 1.9996219932976658,
+      "residual_rms": 0.0004338539147283882,
+      "residual_mean_abs": 0.00015811952471267432,
+      "residual_max_abs": 0.005387663841247559,
+      "normalized_residual_rms": 0.0005563115388773015
+    },
+    {
+      "tau": 0.5,
+      "physical_time_using_estimated_T": 2.4995274543762207,
+      "residual_rms": 0.0004796672146767378,
+      "residual_mean_abs": 0.00016862869961187243,
+      "residual_max_abs": 0.00724261999130249,
+      "normalized_residual_rms": 0.0006150558915962793
+    },
+    {
+      "tau": 0.6000000238418579,
+      "physical_time_using_estimated_T": 2.9994330644382217,
+      "residual_rms": 0.0005509366164915264,
+      "residual_mean_abs": 0.00018300206284038723,
+      "residual_max_abs": 0.007150173187255859,
+      "normalized_residual_rms": 0.0007064414692123559
+    },
+    {
+      "tau": 0.699999988079071,
+      "physical_time_using_estimated_T": 3.4993383765333306,
+      "residual_rms": 0.0005532277282327414,
+      "residual_mean_abs": 0.00018707537674345076,
+      "residual_max_abs": 0.008298158645629883,
+      "normalized_residual_rms": 0.0007093792596879659
+    },
+    {
+      "tau": 0.800000011920929,
+      "physical_time_using_estimated_T": 3.9992439865953315,
+      "residual_rms": 0.0005829849396832287,
+      "residual_mean_abs": 0.00021251069847494364,
+      "residual_max_abs": 0.006990127265453339,
+      "normalized_residual_rms": 0.0007475356057130596
+    },
+    {
+      "tau": 0.8999999761581421,
+      "physical_time_using_estimated_T": 4.4991492986904404,
+      "residual_rms": 0.0011697901645675302,
+      "residual_mean_abs": 0.00039800064405426383,
+      "residual_max_abs": 0.013145234435796738,
+      "normalized_residual_rms": 0.0014999697928771807
+    },
+    {
+      "tau": 1.0,
+      "physical_time_using_estimated_T": 4.999054908752441,
+      "residual_rms": 0.004558120854198933,
+      "residual_mean_abs": 0.0013906352687627077,
+      "residual_max_abs": 0.059040188789367676,
+      "normalized_residual_rms": 0.005844675225243988
+    }
+  ]
+}
